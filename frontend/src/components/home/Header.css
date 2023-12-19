@@ -1,0 +1,61 @@
+.logo-container {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    color: #333;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+  }
+
+.logo-container span {
+    margin-left: 8px;
+}
+
+.navbar-content{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.home-logo {
+    height: 100px;
+    width: auto;
+    max-width: 100%
+}
+
+.navbar {
+    padding: 3px;
+    box-shadow: rgb(0,0,0,0.1) 0px 10px 15px -3px, rgb(0,0,0,0.5) 0px 4px 6px -2px;
+}
+
+.navbar-container {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: 105px;
+}
+
+.nav-link {
+    color: #333;    
+    text-decoration: none;   
+    font-family: inherit;
+    transition: all 300ms ease-in-out;
+}
+.ls-nav {
+    display: flex;
+    align-items: center;
+    justify-content:  flex-start;
+    min-width: 110PX;
+    /* padding-right: 5px; */
+    max-width: 100%;
+}
+
+.site-name {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2.2rem;
+}

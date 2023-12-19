@@ -1,0 +1,21 @@
+.footer {
+    background: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+    color: #333;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  
+.second-logo {
+    height: 75px;
+    width: 75px;
+}

@@ -1,0 +1,219 @@
+.employee-dashboard-container{
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+.user-info-container {
+    background-color: #fafbfc;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0px;
+  }
+  
+  @media (max-width: 768px) {
+    .user-info-container {
+      width: 90%; 
+    }
+  }
+
+  .reserved-book{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px 0px;
+  }
+
+  .user-books-container {
+    width: 75%;
+  }
+
+  .emp-dashboar-title2{
+    width: 65%;
+    display: flex;
+    padding: 10px;
+    font-family: inherit;
+    color: #333;
+  }
+  
+  .reservation-button-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .reserved-book p.title-text {
+    width: 285px;
+    margin-right: 10px;
+  }
+
+  .user-result-container {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 75%;
+  }
+
+  .user-info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    width: 100%;
+  }
+  
+  .user-info-row > div {
+    flex: 1;
+  }
+  
+  .user-info-row p {
+    margin: 0;
+  }
+
+  .unreserve-button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(101, 25, 136, 0.8);
+    color: white;
+  }
+
+  .unreserve-button:disabled{
+    background-color: rgba(72, 71, 73, 0.8);
+  } 
+
+  .unreserve-button:not(:disabled):hover {
+    background-color: rgba(101, 25, 136, 0.9);
+  }
+
+  .add-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(101, 25, 136, 0.8);
+    color: white;
+  }
+
+  .add-button:hover {
+    background-color: rgba(101, 25, 136, 0.9)
+  }
+
+  .scroll-container {
+    max-height: 200px; 
+    overflow-y: auto;
+    width: 100%;
+  }
+
+  .search-results-container {
+    width: 75%;
+  }
+
+  .search-result-book {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px 0px;
+  }
+
+  .book-info {
+    flex: 1;
+  }
+
+  .isbn-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .isbn-checkbox p {
+    padding-right: 14px;
+  }
+
+  .book-info p.title-text {
+    width: 385px;
+    margin-right: 10px;
+  }
+
+
+  .reserve-book-button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(101, 25, 136, 0.8);
+    color: white;
+  }
+
+  .reserve-book-button:disabled{
+    background-color: rgba(72, 71, 73, 0.8);
+  } 
+
+  .reserve-book-button:not(:disabled):hover {
+    background-color: rgba(101, 25, 136, 0.9);
+  }
+
+  .return-button {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: none;
+    background-color: rgba(101, 25, 136, 0.8);
+    color: white;
+  }
+
+  .return-button:hover {
+    background-color: rgba(101, 25, 136, 0.9)
+  }
+
+  .reserve-return-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .return-button-contianer {
+    padding: 20px;
+  }
+
+  .search-results-text {
+    padding-top: 20px;
+  }
+
+  .cash-payment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .cash-input {
+    width: 85px;
+  }
+
+  .subheader2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 65%;
+    
+  }
+
+  .subheader-container2{
+    display: flex;
+    justify-content: center;
+  }

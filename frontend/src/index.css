@@ -1,0 +1,81 @@
+ :root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*
+
+.pages{
+  max-width: 1150px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+body{
+  height: 100vh; 
+  background: linear-gradient(white,rosybrown);
+}
+
+header .container {
+  max-width:  1150px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: inherit;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+header .home {
+  font-family: inherit;
+}
+
+header b {
+  color: #333;
+  text-decoration: none;
+}
+
+header {
+  background: #fff;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+header .logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.login_button {
+  border: none;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;  
+}
+
+.log_modal {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 8px;;
+  padding: 20px;
+}
+ */

@@ -1,0 +1,91 @@
+ .data-container1{
+    padding: 0 5rem;
+ }
+ .data {
+    padding-bottom: 2rem;
+    margin: 20px;
+  }
+  
+  .data-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    flex-wrap: wrap;
+  }
+  
+  .data-containers {
+    height: 100px;
+    position: relative;
+    flex: 1;
+    max-width: 250px;
+    min-width: 150px;
+    margin: 10px;
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px;
+  }
+  
+  .charts-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    flex-wrap: wrap;
+  }
+  
+  .charts-container > div {
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    padding-bottom: 2rem;
+    
+  }
+
+  .dashboard-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+    padding-top: 20px;
+    color: #333;
+  }
+
+  .subheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .google-analytics-button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px 0px;
+    border: none;
+  }
+
+  .google-analytics-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  }
+
+  .google-button-container {
+    padding-right: 110px;
+    padding-top: 20px;
+  }
+
+  .button-text{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    color: #333;
+  }

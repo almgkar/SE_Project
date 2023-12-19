@@ -1,0 +1,53 @@
+.form {
+  width: 100%;
+  max-width: 100px;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control {
+  margin-bottom: 70px;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #353336;
+  display: block;
+}
+
+.control input {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.control input:focus {
+  border-color: #007bff;
+}
+
+.action {
+  margin-top: 20px;
+}
+
+.action button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.action button:hover {
+  background-color: #0056b3;
+}

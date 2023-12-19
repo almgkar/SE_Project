@@ -1,0 +1,25 @@
+GET http://localhost:5000/bookSearch
+
+####
+
+GET http://localhost:5000/bookSearch/15
+
+###
+
+POST  http://localhost:5000/bookSearch
+Content-Type: application/json
+
+{
+    "name":  "To Kill a Mockingbird",
+    "Author":  "Harper Lee"
+
+}
+
+###
+
+GET http://localhost:5000/bookSearch?search=Lee
+
+
+###
+DELETE http://localhost:5000/bookSearch/6526e457da8d655070d838b7
+

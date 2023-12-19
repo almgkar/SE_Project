@@ -1,0 +1,27 @@
+const { MongoClient } = require("mongodb");
+
+const MONGO_URI =
+  "mongodb+srv://SE_group24:Fall23_se_grp24@cluster0.htrtloz.mongodb.net/";
+let paymentDb;
+
+async function connect() {
+  try {
+    const client = await MongoClient.connect(MONGO_URI, {
+      useUnifiedTopology: true,
+      useNewUrlParser: true,
+    });
+
+    const db = client.db("SE_Project");
+    paymentDb = db.collection("payments_db");
+    console.log("Connected to MongoDB!");
+  } catch (error) {
+    console.error(`Error: ${error.message}`);
+    process.exit(1);
+  }
+}
+
+connect();
+
+module.exports = {
+  getPaymentDb: () => paymentDb,
+};

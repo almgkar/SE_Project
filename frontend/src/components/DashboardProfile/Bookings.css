@@ -1,0 +1,158 @@
+.book-details {
+  padding: 2.5rem 0;
+}
+
+.book-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 6rem;
+}
+
+.book-details-content {
+  display: grid;
+  font-family: inherit;
+  gap: 4rem;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  outline: 0;
+  border: none;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  margin-left: 1px;
+  margin-bottom: 2.6rem;
+  transition: all 300ms ease-in-out;
+}
+
+.back-button:hover {
+  color: #8d27ae;
+}
+
+.back-button span {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+
+.book-details-img {
+  max-height: 600px;
+  width: 480px;
+  overflow: hidden;
+}
+
+.book-details-img img {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.book-details-item {
+  margin-bottom: 1.4rem;
+}
+
+.book-title {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.book-details-item.description {
+  opacity: 0.8;
+}
+
+.book-description {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.book-published-text {
+  font-weight: 600;
+}
+
+.book-published {
+  font-style: italic;
+}
+
+.book-subjects-text {
+  font-weight: 600;
+}
+
+.book-subjects {
+  font-style: italic;
+}
+
+.book-details-info {
+  overflow-y: scroll;
+  max-height: 600px;
+  padding: 1.4rem;
+}
+
+.book-details-info::-webkit-scrollbar {
+  width: 8px;
+}
+
+.book-details-info::-webkit-scrollbar-track {
+  border-radius: 8px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.book-details-info::-webkit-scrollbar-thumb {
+  background-color: #8d27ae;
+  outline: -1px solid slategray;
+  border-radius: 8px;
+}
+
+.reserve-button-holder {
+  display: flex;
+  justify-content: left;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.reserve-button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  background-color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
+}
+
+.reserve-button:not(:disabled):hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-details-content {
+    grid-template-columns: 40% 60%;
+    gap: 0;
+  }
+  .book-details-img {
+    padding: 0 6rem 0 2rem;
+  }
+  .book-details-img img {
+    max-width: 100%;
+  }
+
+  .back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    outline: 0;
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+    margin-left: 30px;
+    margin-bottom: 2.6rem;
+    transition: all 300ms ease-in-out;
+  }
+}
